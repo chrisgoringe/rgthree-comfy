@@ -107,6 +107,7 @@ export class RgthreeBetterButtonWidget extends RgthreeBaseWidget {
         super(name);
         this.value = "";
         this.mouseUpCallback = mouseUpCallback;
+        this.type = "RgthreeBetterButtonWidget";
     }
     draw(ctx, node, width, y, height) {
         drawWidgetButton({ ctx, node, width, height, y }, this.name, this.isMouseDownedAndOver);
